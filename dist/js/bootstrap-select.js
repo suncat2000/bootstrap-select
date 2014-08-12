@@ -673,6 +673,8 @@
           if ((prevValue != that.$element.val() && that.multiple) || (prevIndex != that.$element.prop('selectedIndex') && !that.multiple)) {
             that.$element.change();
           }
+          
+          $option.click();
         }
       });
 
