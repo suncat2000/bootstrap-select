@@ -674,7 +674,7 @@
             that.$element.change();
           }
           
-          $option.click();
+          $option.trigger('click');
         }
       });
 
